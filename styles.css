@@ -1,0 +1,214 @@
+body{
+    background-color: hsl(0, 19%, 83%);
+    font-family: "Rubik", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+   
+}
+.container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.blue{
+    background: linear-gradient(45deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    height: 558px;
+    width: 480px;
+    border-radius: 0 0 65% 85%;
+    overflow: hidden;
+    position: relative;
+    left: -15%; 
+    z-index: 1;
+    margin: auto 0;
+     /* will be helpful later for the classes*/
+}
+.grey{
+    background-color: hsl(270, 20%, 96%);
+    height: 558px;
+    width: 30%;
+    border-radius: 75% 100% 0 0;
+    overflow: hidden;
+    position: relative;
+    right: -52%;
+    top: 110px;
+}
+.phone{
+    border: 10px solid white;
+    width: 22%;
+    height: 435px;
+    top: 10%;
+    left: 17%;
+    z-index: 2;
+    position: absolute;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 15px;/*change it*/
+}
+#back{
+    background-color: hsl(270, 20%, 96%);
+    height: 100%;
+    border-radius: 30px 30px 30px 30px;
+}
+.color{
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    height: 57px;
+    border-radius: 30px 30px 10px 10px;
+    padding-top:27px;
+    padding-left: 10px;
+    display:flex;
+    .down{
+        color: white;
+        padding-top: 10px;
+    }
+    img{
+        width: 25px;
+        border: 2px solid white;
+        border-radius: 25px 25px 25px 25px;
+        height: 25px;
+        margin-top: 2px;
+    }
+    .head{
+            display: flex;
+            flex-direction: column;
+    }
+    h3{
+        color: white;
+        margin-left: 9px;
+        margin-top: 3px;
+        font-size: 10px;
+        position: relative;
+    }
+    p{
+        color: hsl(206, 6%, 79%);
+        margin-top: -10px;
+        margin-left: 9px;
+        font-size: x-small;
+        position: relative;
+    }
+    .elle{
+        color: white;
+        padding-left: 130px;
+        padding-top: 11px;
+    }
+}
+#one{
+    background-color: hsl(206, 6%, 79%);
+    margin-left: 8px;
+    margin-top: 5px;
+    height: 27px;
+    width: 33%;
+    padding-top: 1px;
+    padding-left: 10px;
+    border-radius: 10px 10px 6px 10px;
+    color:hsl(276, 55%, 52%);
+    font-size: 6px;
+}
+#one-first{
+    background-color: hsl(206, 6%, 79%);
+    margin-left: 8px;
+    margin-top: 5px;
+    height: 36px;
+    width: 33%;
+    padding-top: 1px;
+    padding-left: 10px;
+    border-radius: 10px 10px 6px 10px;
+    color:hsl(276, 55%, 52%);
+    font-size: 6px;
+}
+#two{
+    margin-left: 188px;
+    margin-top: 5px;
+    img{
+    width:30px;
+    border-radius: 8px;
+    }
+}
+#three{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 5px;
+    height: 26px;
+    width: 30%;
+    padding-top: 1px;
+    padding-left: 10px;
+    border-radius: 10px 10px 6px 10px;
+    color:hsl(271, 15%, 43%);
+    margin-left: 188px;
+    font-size: 6px;
+}
+#three-first{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 5px;
+    height: 20px;
+    width: 19%;
+    padding-top: 1px;
+    padding-left: 10px;
+    border-radius: 10px 10px 6px 10px;
+    color:hsl(271, 15%, 43%);
+    margin-left: 219px;
+    font-size: 6px;
+}
+#four{
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    margin-left: 8px;
+    margin-top: 5px;
+    height: 32px;
+    width: 37%;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 10px 10px 6px 10px;
+    color:white;
+    #circle{
+    margin-left: -7px;
+    }
+    #walk{
+        margin-top: 2px;
+        padding-left: 2px;
+        color: hsl(270, 20%, 96%);
+        font-size: 6px;
+    }
+    #dollar{
+        padding-left: 20px;
+        font-size: 10px;
+    }
+}
+#five{
+    margin-left: 8px;
+    margin-top: 8px;
+    position: relative;
+    .place{
+        width: 260px;
+        height: 38px;
+        border-radius: 25px;
+        border: 1px solid white;
+        padding-left: 22px;
+        color: hsl(206, 6%, 79%);
+        font-size: 10px;
+        position: relative;
+        z-index: 1;
+    }
+    .material-symbols-outlined{
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        border: 2px solid hsl(271, 36%, 24%);
+        border-radius: 50%;
+        background-color: hsl(271, 36%, 24%);
+        color: white;
+        padding: 8px;
+        z-index: 1;
+    }
+}
+.text{
+    z-index: 2;
+    margin-top: 8%;
+    margin-right: 15%;
+    padding-right: 5px;
+    h1{
+        color: hsl(271, 36%, 24%);
+    }
+    p{
+        color: hsl(270, 7%, 64%);
+    }
+}
